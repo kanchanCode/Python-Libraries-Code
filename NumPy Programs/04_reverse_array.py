@@ -11,5 +11,5 @@ import numpy as np
 np_arr=np.arange(12,38)
 print(type(np_arr))
 print("Original array is ",np_arr)
-np_arr=np_arr[::-1]   #using slice to reverse
+np_arr=np_arr[::-1]   #using advance indexing
 print("Reverse of array is",np_arr)
