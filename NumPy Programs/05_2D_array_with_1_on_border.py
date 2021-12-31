@@ -15,4 +15,4 @@ print(np_arr)
 #np_arr[1][1]=0
 #np_arr[1,1]=0
 np_arr[1:-1,1:-1]=0  # to access specified elements and change value 
-print(np_arr)
+print("1 on borders and 0 inside",np_arr)
