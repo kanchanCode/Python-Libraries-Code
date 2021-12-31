@@ -15,3 +15,5 @@ print(type(list1))
 np_arr=np.array(list1) #converting it to array
 print("NumPy array is",np_arr)
 print(type(np_arr))
+
+
