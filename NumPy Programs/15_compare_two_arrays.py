@@ -24,6 +24,7 @@ print(np.less(np_arr1,np_arr2))
 print("array1 <= array2")
 print(np.less_equal(np_arr1,np_arr2))
 
+
 # comparison= np_arr1==np_arr2
 # equal_arrays=comparison.all()
 # print(equal_arrays)
