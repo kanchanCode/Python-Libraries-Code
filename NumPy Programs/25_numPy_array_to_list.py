@@ -13,3 +13,10 @@ Print array values with precision 3:
 
 '''
 import numpy as np
+np_arr=np.linspace(0.26153123,0.99469633,10)
+print("Array is ")
+print(np_arr)
+np.set_printoptions(precision=3)
+print("After setting precision")
+print(np_arr)
+#print("List is ",np_arr.tolist())

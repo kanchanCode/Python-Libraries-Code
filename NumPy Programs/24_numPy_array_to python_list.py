@@ -14,3 +14,8 @@ Array to list:
 
 '''
 import numpy as np
+
+np_arr=np.arange(6).reshape(3,2)
+print("Array is ")
+print(np_arr)
+print("List is ",np_arr.tolist())
