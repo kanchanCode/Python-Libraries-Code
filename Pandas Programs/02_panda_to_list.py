@@ -1,8 +1,8 @@
 '''
 @Author: Kanchan
-@Date: 2022-10-01
+@Date: 2022-01-02
 @Last Modified by: Kanchan
-@Last Modified time: 2022-01-01
+@Last Modified time: 2022-01-02
 @Title :Write a Python program to convert a Panda module Series to Python list and it's type.
 '''
 

@@ -1,8 +1,8 @@
 '''
 @Author: Kanchan
-@Date: 2022-10-01
+@Date: 2022-01-02
 @Last Modified by: Kanchan
-@Last Modified time: 2022-01-01
+@Last Modified time: 2022-01-02
 @Title :Write a Python program to create and display a one-dimensional array-like object
 containing an array of data using Pandas module. 
 '''
