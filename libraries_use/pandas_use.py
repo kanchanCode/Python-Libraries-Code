@@ -129,5 +129,10 @@ print(newdf.loc[[1,2],:]) # returns all columns and 1,2 row
 
 #DATABASE TYPE QUERIES
 print(newdf.loc[newdf ['A']<0.3])
-
 print(newdf.loc[(newdf ['A']<0.3) & (newdf['C']>0.1)])
+
+print(newdf.iloc[0,4]) # if we want to fetch value by index
+print(newdf.iloc[[0,5],[1,2]])
+
+print(newdf.drop(['A','C'],axis=1 )) # to delete it in a copy of it 
+print(newdf.drop(['A','C'],axis=1,inplace=True )) # to delete it in original also
