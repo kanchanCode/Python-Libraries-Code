@@ -7,3 +7,9 @@
 
 '''
 import numpy as np
+np_array=np.array([[10,20,30],[40,50,60]])
+print("Array is ")
+print(np_array)
+column=np.array([[100],[200]])
+print("Added column ")
+print(np.append(np_array,column,axis=1))
