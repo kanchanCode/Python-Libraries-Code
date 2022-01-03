@@ -7,3 +7,10 @@
 
 '''
 import numpy as np
+np_arr=np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+index = [0, 3, 4]
+print("Array is ")
+print(np_arr)
+print("After deleting 1,4,5 element ")
+new_arr=np.delete(np_arr,index)
+print(new_arr)
