@@ -15,4 +15,8 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
              'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
-df=pd.DataFrame(exam_data,labels)
+df=pd.DataFrame(exam_data,index=labels)
+age=[24,25,26,22,30,25,26,27,22,23]
+df['age']=age
+print("New column age is inserted")
+print(df)
