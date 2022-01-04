@@ -18,3 +18,5 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 df=pd.DataFrame(exam_data,labels)
+print("Rows where score is missing :")
+print(df[df['score'].isnull()])   #to print the rows with null/NaN values
