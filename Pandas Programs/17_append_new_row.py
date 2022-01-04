@@ -17,3 +17,16 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 df=pd.DataFrame(exam_data,labels)
+
+#df.append('name' : "Suresh", 'score': 15.5, 'attempts': 1, 'qualify': "yes", 'label': "k")
+print("Adding a new row ...")
+df.loc['k']=["Suresh",15.5,1,'yes'] # added row
+print(df)
+print("new row k is added!!")
+
+print("Deleting 'k' row ...")
+df=df.drop('k') #using drop()
+print(df)
+print("Row 'k' is deleted!!")
+
+
