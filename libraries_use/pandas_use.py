@@ -40,26 +40,26 @@ print(type(df))
 print(type(dict1.keys ))
 #dictionary to dataframe
 
-csv_file=df.to_csv('dataIndexFalse.csv',index=False)
-print(csv_file)
+#csv_file=df.to_csv('dataIndexFalse.csv',index=False)
+#print(csv_file)
 #convert to csv file/excel file
 print(df.head(2)) #first 2 lines
 print(df.tail(2)) #last 2 lines
 print(df.describe()) #will calculate count,mean,std,min etc
 
-name=pd.read_csv('data.csv')
-print(name)
+#name=pd.read_csv('data.csv')
+#print(name)
 # read csv file
 
 #accessing data
-print(name['city'])
-print(name['city'][0])
-name['city'][0]='UP'              #updated value of 'city'='UP'
-name1=pd.read_csv('data.csv')
-print(name)
+#print(name['city'])
+#print(name['city'][0])
+#name['city'][0]='UP'              #updated value of 'city'='UP'
+#name1=pd.read_csv('data.csv')
+#print(name)
 
-name.index=['first','second','third']
-print(name)
+#name.index=['first','second','third']
+#print(name)
 #to fetch rows ->use index
 #to fetch column -? column name
 
@@ -136,3 +136,28 @@ print(newdf.iloc[[0,5],[1,2]])
 
 print(newdf.drop(['A','C'],axis=1 )) # to delete it in a copy of it 
 print(newdf.drop(['A','C'],axis=1,inplace=True )) # to delete it in original also
+
+newdf.drop([1,5],axis=0,inplace=True) #to drop rows
+newdf.reset_index(drop=True,inplace=True) #to reset index and drop the header for index 
+print(newdf)
+
+print(newdf['B'].isnull()) #return where B is 0/null
+newdf.loc[:,['B']]=None # to set all the values as none
+print(newdf)
+
+print(newdf['B'].isnull())
+
+#df.shape
+#df.info()
+#drop_duplicates()
+#df.describe()
+#df['name'].value_counts(dropna=False)
+#df.notnull() opposite of isnull()
+#df.max()
+#df.min()
+#df.corr()
+
+#read excel 
+#data=pd.read_excel('data.xlsx',sheet_name='Sheet2')
+#pip install xlrd
+
