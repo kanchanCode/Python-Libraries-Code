@@ -18,5 +18,6 @@ labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 df=pd.DataFrame(exam_data,index=labels)
 print("Names arranged in descending order and scores in ascending order")
-df.sort_values(by=['name','score'],ascending=[False,True])
-print(df)
+print(df.sort_values(by=['name','attempts'],ascending=[False,True]))
+#df.sort_values(by=[exam_data['name']],ascending=True)
+#print(df)
