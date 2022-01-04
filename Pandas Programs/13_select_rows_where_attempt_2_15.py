@@ -18,5 +18,5 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 df=pd.DataFrame(exam_data,labels)
-print("No. of attempts less than 2 and greater than 15 ")
+print("No. of attempts less than 2 and score is greater than 15 ")
 print(df[(df['attempts']<2)&(df['score']>15)])
