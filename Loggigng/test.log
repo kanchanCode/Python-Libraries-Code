@@ -1,0 +1,52 @@
+DEBUG:root:Add :4 + 2 = 6
+DEBUG:root:Subtract:4 - 2 = 2
+DEBUG:root:Multiply:4 * 2 = 8
+DEBUG:root:Division:4 / 2 = 2
+2022-01-08 09:22:47,484:DEBUG:Add :4 + 2 = 6
+2022-01-08 09:22:47,484:DEBUG:Subtract:4 - 2 = 2
+2022-01-08 09:22:47,484:DEBUG:Multiply:4 * 2 = 8
+2022-01-08 09:22:47,484:DEBUG:Division:4 / 2 = 2
+2022-01-08 09:46:05,564:INFO:Add :4 + 2 = 6
+2022-01-08 09:46:05,564:INFO:Subtract:4 - 2 = 2
+2022-01-08 09:46:05,564:INFO:Multiply:4 * 2 = 8
+2022-01-08 09:46:05,565:INFO:Division:4 / 2 = 2
+2022-01-08 09:46:05,802:INFO:Add :4 + 2 = 6
+2022-01-08 09:46:05,802:INFO:Subtract:4 - 2 = 2
+2022-01-08 09:46:05,802:INFO:Multiply:4 * 2 = 8
+2022-01-08 09:46:05,802:INFO:Division:4 / 2 = 2
+2022-01-08 09:47:18,355:INFO:root:Add :40 + 20 = 60
+2022-01-08 09:47:18,356:INFO:root:Subtract:40 - 20 = 20
+2022-01-08 09:47:18,356:INFO:root:Multiply:40 * 20 = 800
+2022-01-08 09:47:18,356:INFO:root:Division:40 / 20 = 2
+2022-01-08 09:47:18,556:INFO:root:Add :40 + 20 = 60
+2022-01-08 09:47:18,556:INFO:root:Subtract:40 - 20 = 20
+2022-01-08 09:47:18,556:INFO:root:Multiply:40 * 20 = 800
+2022-01-08 09:47:18,556:INFO:root:Division:40 / 20 = 2
+2022-01-08 09:47:42,605:INFO:root:Add :40 + 20 = 60
+2022-01-08 09:47:42,606:INFO:root:Subtract:40 - 20 = 20
+2022-01-08 09:47:42,606:INFO:root:Multiply:40 * 20 = 800
+2022-01-08 09:47:42,606:INFO:root:Division:40 / 20 = 2
+2022-01-08 09:52:15,252:DEBUG:__main__:Add :40 + 20 = 60
+2022-01-08 09:52:15,257:DEBUG:__main__:Subtract:40 - 20 = 20
+2022-01-08 09:52:15,257:DEBUG:__main__:Multiply:40 * 20 = 800
+2022-01-08 09:52:15,257:DEBUG:__main__:Division:40 / 20 = 2
+2022-01-08 09:52:15,559:DEBUG:__main__:Add :40 + 20 = 60
+2022-01-08 09:52:15,560:DEBUG:__main__:Subtract:40 - 20 = 20
+2022-01-08 09:52:15,560:DEBUG:__main__:Multiply:40 * 20 = 800
+2022-01-08 09:52:15,560:DEBUG:__main__:Division:40 / 20 = 2
+2022-01-08 09:56:15,713:ERROR:__main__:Invalid input 0
+2022-01-08 09:57:13,044:ERROR:__main__:Invalid input 0
+Traceback (most recent call last):
+  File "c:\Users\hp\Desktop\Python Libraries\Loggigng\calc.py", line 51, in div
+    result=x/y
+ZeroDivisionError: division by zero
+2022-01-08 09:59:07,406:ERROR:__main__:Invalid input 0
+Traceback (most recent call last):
+  File "c:\Users\hp\Desktop\Python Libraries\Loggigng\calc.py", line 55, in div
+    result=x/y
+ZeroDivisionError: division by zero
+2022-01-08 10:00:08,897:ERROR:__main__:Invalid input 0
+Traceback (most recent call last):
+  File "c:\Users\hp\Desktop\Python Libraries\Loggigng\calc.py", line 56, in div
+    result=x/y
+ZeroDivisionError: division by zero
