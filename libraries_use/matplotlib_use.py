@@ -10,6 +10,7 @@ Types of PLOTS
 
 Bar Graph = chart or graph that presents categorical data with rectangular bars with heights or lengths proportional to the values
 To see difference in two groups (category variables)
+plt.bar(x, height, width, bottom, align)
 
 Histogrms= Cartesian coordinates to display values for typically two variables for a set of data.
 a graphical representation that organizes a group of data points into user-specified ranges (Quantative variables )
